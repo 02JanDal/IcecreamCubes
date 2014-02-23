@@ -40,11 +40,6 @@ add_library(IcecreamServerLib STATIC ${SRCS})
 target_link_libraries(IcecreamServerLib JansGameFramework)
 qt5_use_modules(IcecreamServerLib Core Qml Network Sql)
 
-### libnoise ###
-# TODO make platform independent
-target_link_libraries(IcecreamServerLib noise)
-include_directories(/usr/include/libnoise)
-
 add_executable(IcecreamServer main.cpp)
 target_link_libraries(IcecreamServer IcecreamServerLib)
 qt5_use_modules(IcecreamServer Core)
