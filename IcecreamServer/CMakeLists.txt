@@ -29,7 +29,7 @@ include_directories(
  ${Qt5Qml_INCLUDE_DIRS}
  ${Qt5Network_INCLUDE_DIRS}
  ${Qt5Sql_INCLUDE_DIRS}
- ${CMAKE_SOURCE_DIR}/JGF
+ ${JGF_PATH}/server
 )
 
 set(ICECREAM_SERVER_VERSION 1.0)

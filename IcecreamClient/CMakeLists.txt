@@ -8,7 +8,7 @@ find_package(OpenAL REQUIRED)
 
 include_directories(
  ${OPENAL_INCLUDE_DIRS}
- ${CMAKE_SOURCE_DIR}/JGFC
+ ${JGF_PATH}/client
 )
 
 set(SRCS
