@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/Button.qml</file>
+        <file>qml/TextLineInput.qml</file>
+    </qresource>
+</RCC>

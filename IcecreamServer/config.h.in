@@ -1,0 +1,3 @@
+#pragma once
+
+#define ICECREAM_SERVER_VERSION "@ICECREAM_SERVER_VERSION@"
